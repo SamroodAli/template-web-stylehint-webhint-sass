@@ -1,7 +1,7 @@
 {
   "scripts": {
     "hint": "hint .",
-    "lint": "stylelint '**/*.scss'",
+    "lint": "stylelint '**/*.scss' --fix",
     "sass": "sass './css/scss/main.scss' './css/main.css'"
   },
   "devDependencies": {
