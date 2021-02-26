@@ -1,7 +1,8 @@
 {
   "scripts": {
     "hint": "hint .",
-    "lint": "stylelint '**/*.{css,scss}'"
+    "lint": "stylelint '**/*.scss'",
+    "sass": "sass './css/scss/main.scss' './css/main.css'"
   },
   "devDependencies": {
     "hint": "6.0.x",
@@ -9,5 +10,8 @@
     "stylelint-config-standard": "20.0.x",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "3.17.x"
+  },
+  "dependencies": {
+    "sass": "^1.32.8"
   }
 }
